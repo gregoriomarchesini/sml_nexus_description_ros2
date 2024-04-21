@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>ctmconv</authoring_tool>
+            <comments>solid nexus_base_link_collision                                                 </comments>
+        </contributor>
+        <created>2024-04-04T12:49:34</created>
+        <modified>2024-04-04T12:49:34</modified>
+    </asset>
+    <library_geometries>
+        <geometry id="Mesh-1" name="Mesh-1">
+            <mesh>
+                <source id="Mesh-1-positions" name="position">
+                    <float_array id="Mesh-1-positions-array" count="48">-206 -113 -27 -206 -113 27 -206 113 -27 -206 113 27 188 -113 -27 188 -113 27 188 -38.5 -27 188 -38.5 27 188 38.5 -27 188 38.5 27 188 113 -27 188 113 27 210 -38.5 -27 210 -38.5 27 210 38.5 -27 210 38.5 27 </float_array>
+                    <technique_common>
+                        <accessor count="16" offset="0" source="#Mesh-1-positions-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh-1-vertices">
+                    <input semantic="POSITION" source="#Mesh-1-positions" />
+                </vertices>
+                <triangles count="28">
+                    <input offset="0" semantic="VERTEX" source="#Mesh-1-vertices" />
+                    <p>1 0 5 5 0 4 3 2 1 1 2 0 11 10 3 3 10 2 9 8 11 11 8 10 15 14 9 9 14 8 13 12 15 15 12 14 7 6 13 13 6 12 5 4 7 7 4 6 2 10 0 0 10 8 4 0 6 6 0 8 6 8 12 12 8 14 1 5 3 3 5 7 11 3 9 9 3 7 9 7 15 15 7 13 </p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="Scene-1" name="Scene-1">
+            <node id="Object-1" name="Object-1">
+                <instance_geometry url="#Mesh-1" />
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#Scene-1" />
+    </scene>
+</COLLADA>

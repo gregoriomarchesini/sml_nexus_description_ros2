@@ -12,7 +12,7 @@ For a comprehensive list of ROS2 tutorials please visit the ROS2 [main page](htt
 In order to run the package make sure that `gazebo` and `rviz2` are correctly installed. We recommend using Gazebo Classic 11. In addition you will have to download the gazebo plug in required to run the nexus platforms.
 
 ```
-write here where the package is stored
+git clone https://github.com/gregoriomarchesini/sml_nexus_plugin_ros2
 ```
 Run rosdep before downloading the package
 

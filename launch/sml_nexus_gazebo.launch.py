@@ -59,7 +59,7 @@ def generate_launch_description():
     )
    
     args =  ['-topic', '/robot_description', 
-             '-entity', 'sml_nexus', 
+             '-entity', 'nexus', 
              '-z', '2.0']
     
     spawn_entity = Node(

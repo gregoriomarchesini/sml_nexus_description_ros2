@@ -11,7 +11,7 @@
                     <namespace>${namespace}</namespace>
                 </xacro:if>
                 <!-- Command line arguments sent to Node's constructor for remappings -->
-                <argument>__name:=nexus</argument>
+                <argument>__name:=${namespace}</argument>
                 <argument>__log_level:=debug</argument>
                 <remapping>cmd_vel:=cmd_vel</remapping>
                 <remapping>odom:=odom</remapping>

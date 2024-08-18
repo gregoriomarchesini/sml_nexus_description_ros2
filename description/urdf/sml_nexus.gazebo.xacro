@@ -49,7 +49,7 @@
   </gazebo>
 
   <gazebo reference="nexus_body">
-    <material>Gazebo/Yellow</material>
+    <material>Gazebo/Purple</material>
   </gazebo>
 
   <gazebo reference="left_sensor">
